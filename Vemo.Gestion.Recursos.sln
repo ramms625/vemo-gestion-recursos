@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vemo.Gestion.Recursos", "Vemo.Gestion.Recursos\Vemo.Gestion.Recursos.csproj", "{80F58A2E-CBE3-4257-AF84-C203EF24EFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vemo.Gestion.Recursos.Data", "Vemo.Gestion.Recursos.Data\Vemo.Gestion.Recursos.Data.csproj", "{3C6B906D-656F-44B9-ADE0-CFDAD076A5B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80F58A2E-CBE3-4257-AF84-C203EF24EFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F58A2E-CBE3-4257-AF84-C203EF24EFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F58A2E-CBE3-4257-AF84-C203EF24EFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F58A2E-CBE3-4257-AF84-C203EF24EFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6B906D-656F-44B9-ADE0-CFDAD076A5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6B906D-656F-44B9-ADE0-CFDAD076A5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6B906D-656F-44B9-ADE0-CFDAD076A5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6B906D-656F-44B9-ADE0-CFDAD076A5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C2EE5E3-DF0E-460C-80BD-DC833BA2051A}
+	EndGlobalSection
+EndGlobal
