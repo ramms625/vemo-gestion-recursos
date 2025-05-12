@@ -27,21 +27,12 @@ Para comprender y trabajar con este proyecto, se recomienda tener nociones bási
 
 ## Estructura del Proyecto
 El proyecto está organizado de la siguiente manera:
-- **`Vemo.Gestion.Recursos.Data`**: Contiene las entidades, DTOs y el contexto de la base de datos (`ApplicationDbContext`).
-- **`Vemo.Gestion.Recursos.Helpers`**: Incluye configuraciones como perfiles de AutoMapper.
 - **`Vemo.Gestion.Recursos`**: Contiene la lógica principal del sistema.
+- **`Vemo.Gestion.Recursos.Data`**: Contiene las entidades, DTOs y el contexto de la base de datos (`ApplicationDbContext`).
+- **`Sección "Pruebas`"**: Explica cómo ejecutar las pruebas unitarias.
+
 
 ## Requisitos Previos
-Antes de ejecutar el proyecto, asegúrate de tener instalados los siguientes elementos:
-1. **.NET SDK**: Descarga e instala la versión compatible desde [dotnet.microsoft.com](https://dotnet.microsoft.com/).
+Antes de ejecutar el proyecto, asegurarse de tener instalados los siguientes elementos:
+1. **.NET SDK**: Descarga e instala la versión 8.
 2. **SQL Server**: Configura una instancia local o remota de SQL Server.
-3. **Visual Studio Code**: Descarga e instala desde [code.visualstudio.com](https://code.visualstudio.com/).
-
-
-## Cómo Empezar
-1. Clona el repositorio en tu máquina local.
-2. Configura la cadena de conexión en el archivo de configuración (`appsettings.json`).
-3. Ejecuta las migraciones de Entity Framework para crear la base de datos.
-4. Inicia el proyecto desde Visual Studio Code o tu IDE preferido.
-
-¡Gracias por contribuir a este proyecto!

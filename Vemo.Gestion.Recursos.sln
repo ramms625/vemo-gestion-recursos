@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vemo.Gestion.Recursos", "Ve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vemo.Gestion.Recursos.Data", "Vemo.Gestion.Recursos.Data\Vemo.Gestion.Recursos.Data.csproj", "{3C6B906D-656F-44B9-ADE0-CFDAD076A5B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vemo.Gestion.Recursos.Tests", "Vemo.Gestion.Recursos.Tests\Vemo.Gestion.Recursos.Tests.csproj", "{B7D2D7F6-67AB-48A9-9936-518300902D3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3C6B906D-656F-44B9-ADE0-CFDAD076A5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C6B906D-656F-44B9-ADE0-CFDAD076A5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C6B906D-656F-44B9-ADE0-CFDAD076A5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D2D7F6-67AB-48A9-9936-518300902D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D2D7F6-67AB-48A9-9936-518300902D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D2D7F6-67AB-48A9-9936-518300902D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D2D7F6-67AB-48A9-9936-518300902D3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

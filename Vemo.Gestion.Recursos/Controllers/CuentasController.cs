@@ -148,7 +148,9 @@ namespace Vemo.Gestion.Recursos.Controllers
 
 
             var claimsDB = await _userManager.GetClaimsAsync(userLogged);
-            claims.AddRange(claimsDB);
+            
+            if (claimsDB != null)
+                claims.AddRange(claimsDB);
 
 
             foreach (var role in new RolesAcceso().GetRoles())

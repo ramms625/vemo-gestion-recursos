@@ -11,6 +11,7 @@ using Vemo.Gestion.Recursos.Data;
 using Vemo.Gestion.Recursos.Data.DataInicial;
 using Vemo.Gestion.Recursos.Data.Entidades;
 using Vemo.Gestion.Recursos.Data.Models;
+using Vemo.Gestion.Recursos.Helpers;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -123,6 +124,7 @@ services
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Encryption:TokenKey"]!)),
         ClockSkew = TimeSpan.Zero
     });
+
 
 
 services.AddDataProtection();
