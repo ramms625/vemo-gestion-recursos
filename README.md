@@ -29,7 +29,7 @@ Para comprender y trabajar con este proyecto, se recomienda tener nociones bási
 El proyecto está organizado de la siguiente manera:
 - **`Vemo.Gestion.Recursos`**: Contiene la lógica principal del sistema.
 - **`Vemo.Gestion.Recursos.Data`**: Contiene las entidades, DTOs y el contexto de la base de datos (`ApplicationDbContext`).
-- **`Sección "Pruebas`"**: Explica cómo ejecutar las pruebas unitarias.
+- **`Vemo.Gestion.Recursos.Tests`"**: Explica cómo ejecutar las pruebas unitarias.
 
 
 ## Requisitos Previos
