@@ -1,0 +1,27 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    ports:
+      - "1433:1433" # Mapea el puerto 1433 del contenedor al puerto 1433 de tu máquina
+    environment:
+      ACCEPT_EULA: "Y" # Acepta los términos de la licencia
+      SA_PASSWORD: "Vemo#2025" # Contraseña para el usuario 'sa'
+    volumes:
+      - sqlserver_data:/var/opt/mssql # Volumen para persistir los datos
+
+  vemo-gestion-recursos:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      container_name: vemo_app
+      ports:
+        - "5000:5000" # Puerto HTTP
+        - "5001:5001" # Puerto HTTPS
+      environment:
+        ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=VemoDB;User=sa;Password=Vemo#2025;TrustServerCertificate=True;"
+      depends_on:
+        - sqlserver
+
+volumes:
+  sqlserver_data: # Define el volumen para persistir los datos de SQL Server

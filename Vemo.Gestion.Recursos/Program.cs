@@ -84,7 +84,8 @@ services
 services
     .AddDbContext<ApplicationDbContext>(options =>
     {
-        var connectionString = config.GetConnectionString("ConnectionString");
+        var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
+            ?? builder.Configuration["ConnectionStrings__DefaultConnection"]; //config.GetConnectionString("ConnectionString");
         options.UseSqlServer(connectionString);
     });
 

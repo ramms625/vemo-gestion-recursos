@@ -9,6 +9,7 @@ Vemo es un sistema diseñado para la gestión eficiente de recursos y usuarios. 
 - **AutoMapper**: Herramienta para mapear objetos entre DTOs y entidades.
 - **ASP.NET Identity**: Gestión de usuarios y autenticación.
 - **SQL Server**: Base de datos relacional para almacenar la información.
+- **Docker**: Contenedores para la aplicación y la base de datos.
 - **Visual Studio Code**: IDE recomendado para el desarrollo y mantenimiento del proyecto.
 
 ## Recomendaciones para el Entendimiento del Proyecto
@@ -24,15 +25,22 @@ Para comprender y trabajar con este proyecto, se recomienda tener nociones bási
    - Conocer los conceptos básicos de autenticación y autorización.
 5. **SQL Server**:
    - Habilidad para gestionar bases de datos y realizar consultas básicas.
+6. **Docker**:
+   - Conocer cómo construir y ejecutar contenedores.
 
 ## Estructura del Proyecto
 El proyecto está organizado de la siguiente manera:
 - **`Vemo.Gestion.Recursos`**: Contiene la lógica principal del sistema.
 - **`Vemo.Gestion.Recursos.Data`**: Contiene las entidades, DTOs y el contexto de la base de datos (`ApplicationDbContext`).
-- **`Vemo.Gestion.Recursos.Tests`"**: Explica cómo ejecutar las pruebas unitarias.
+- **`Vemo.Gestion.Recursos.Tests`**: Explica cómo ejecutar las pruebas unitarias.
 
 
 ## Requisitos Previos
 Antes de ejecutar el proyecto, asegurarse de tener instalados los siguientes elementos:
 1. **.NET SDK**: Descarga e instala la versión 8.
 2. **SQL Server**: Configura una instancia local o remota de SQL Server.
+3. **Docker**: Descarga e instala Docker desde [docker.com](https://www.docker.com/).
+
+
+## Configuración con Docker
+El proyecto incluye un archivo `docker-compose.yml` que configura los servicios necesarios para ejecutar la aplicación y la base de datos.
